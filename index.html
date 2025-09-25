@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AlpDev</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-logos">
+        <div class="bg-text">C++</div>
+        <div class="bg-text">C#</div>
+        <div class="bg-text">Python</div>
+    </div>
+
+    <nav class="navbar">
+        <div class="logo">
+            <span class="logo-text">Alp</span><span class="logo-highlight">Dev</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home" class="active">Anasayfa</a></li>
+            <li><a href="#about">Hakkımda</a></li>
+            <li><a href="#portfolio">Portföy</a></li>
+            <li><a href="#code">Kod Örnekleri</a></li>
+            <li><a href="#contact">İletişim</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <section id="home" class="section home scroll-reveal">
+        <div class="hero-content">
+            <h1 class="neon-text slide-left">Merhaba, Ben Ahmet</h1>
+            <p class="hero-subtitle slide-right">Yazılım dünyasında sınırları zorlayan bir geliştirici.</p>
+            <div class="hero-cta">
+                <a href="#about" class="cta-button">Daha Fazla Bilgi</a>
+            </div>
+        </div>
+        <div class="hero-animation">
+            <div class="code-snippet">
+                <pre>
+                    <code>
+void helloWorld() {
+    cout << "Welcome to AlpDev!" << endl;
+}
+                    </code>
+                </pre>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section about scroll-reveal">
+        <h2 class="neon-text slide-left">Hakkımda</h2>
+        <p class="about-text slide-right">Merhaba ben Ahmet, küçüklükten beri yazılıma ve teknolojiye merakım var fakat durumlardan dolayı araştırma fırsatım 16 yaşıma kadar olmadı. İlk bilgisayarımı 16 yaşımda aldım ve teknolojiye olan ilgimi orada anladım. Okul bölümüm Bilişim Teknolojileri, 9. sınıf bölümüm farklı olduğu için Python öğrenemedim fakat bilgisayar aldıktan sonra Python için eğitim almaya başladım (kendi çabam ile). Ardından C#, Java, JavaScript, C++ ve HTML dillerinde kendimi geliştirmeye başladım. 2008 doğumluyum. 12. sınıf stajımı SAMPA OTOMOTİV isimli kapsamlı büyük bir şirkette yapıyorum. Boş zamanlarımda kendimi geliştirmeye çalışıyorum. Hedefim bir oyun şirketi kurmak veya bir yazılım şirketi kurmak, elimden geldikçe fazlası ile çalışıyorum, teşekkür ederim.</p>
+        
+        <div class="language-box slide-left">
+            <h3 class="neon-text">Bildiğim Diller</h3>
+            <div class="language-grid">
+                <div class="language-item">
+                    <h4 class="neon-text">C++</h4>
+                    <p>Yüksek performanslı uygulamalar geliştiriyorum.</p>
+                    <p>Nesne yönelimli programlama prensiplerini kullanıyorum.</p>
+                    <p>Oyun ve sistem programlama için ideal.</p>
+                </div>
+                <div class="language-item">
+                    <h4 class="neon-text">C#</h4>
+                    <p>.NET tabanlı uygulamalar yapıyorum.</p>
+                    <p>Unity ile oyun geliştirme tecrübem var.</p>
+                    <p>Web ve masaüstü uygulamaları için kullanıyorum.</p>
+                </div>
+                <div class="language-item">
+                    <h4 class="neon-text">Java</h4>
+                    <p>Platform bağımsız uygulamalar geliştiriyorum.</p>
+                    <p>Android uygulama geliştirme bilgim var.</p>
+                    <p>Kurumsal yazılımlar için kullanıyorum.</p>
+                </div>
+                <div class="language-item">
+                    <h4 class="neon-text">JavaScript</h4>
+                    <p>Dinamik web siteleri geliştiriyorum.</p>
+                    <p>Node.js ile backend geliştirme yapıyorum.</p>
+                    <p>React ve Vue gibi framework'lerle çalışıyorum.</p>
+                </div>
+                <div class="language-item">
+                    <h4 class="neon-text">Python</h4>
+                    <p>Veri analizi ve otomasyon projeleri yapıyorum.</p>
+                    <p>Django ve Flask ile web uygulamaları geliştiriyorum.</p>
+                    <p>Makine öğrenmesi projelerinde kullanıyorum.</p>
+                </div>
+                <div class="language-item">
+                    <h4 class="neon-text">HTML</h4>
+                    <p>Web sayfası yapılarını oluşturuyorum.</p>
+                    <p>Semantik etiketlerle erişilebilirlik sağlıyorum.</p>
+                    <p>CSS ile responsive tasarımlar yapıyorum.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="resource-box slide-right">
+            <h3 class="neon-text">Önerdiğim Kanallar, Kurslar</h3>
+            <div class="resource-grid">
+                <div class="resource-item">
+                    <h4 class="neon-text">BTK Akademi</h4>
+                    <a href="https://www.btkakademi.gov.tr/" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_logo_%282013-2015%29.svg" alt="BTK Akademi">
+                    </a>
+                </div>
+                <div class="resource-item">
+                    <h4 class="neon-text">FreeCodeCamp</h4>
+                    <a href="https://www.youtube.com/@freecodecamp" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_logo_%282013-2015%29.svg" alt="FreeCodeCamp">
+                    </a>
+                </div>
+                <div class="resource-item">
+                    <h4 class="neon-text">Edureka!</h4>
+                    <a href="https://www.youtube.com/@edurekaIN" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_logo_%282013-2015%29.svg" alt="Edureka">
+                    </a>
+                </div>
+                <div class="resource-item">
+                    <h4 class="neon-text">Traversy Media</h4>
+                    <a href="https://www.youtube.com/@TraversyMedia" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_logo_%282013-2015%29.svg" alt="Traversy Media">
+                    </a>
+                </div>
+                <div class="resource-item">
+                    <h4 class="neon-text">The Coding Train</h4>
+                    <a href="https://www.youtube.com/@TheCodingTrain" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_logo_%282013-2015%29.svg" alt="The Coding Train">
+                    </a>
+                </div>
+                <div class="resource-item">
+                    <h4 class="neon-text">DevTips</h4>
+                    <a href="https://www.youtube.com/@DevTipsForDesigners" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_logo_%282013-2015%29.svg" alt="DevTips">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="section portfolio scroll-reveal">
+        <h2 class="neon-text slide-left">Portföy</h2>
+        <p class="portfolio-text slide-right">Yaptığım projelerden bazıları:</p>
+        <div class="portfolio-grid">
+            <div class="portfolio-item slide-left">
+                <h4>Web Portalı</h4>
+                <p>React ve Node.js kullanarak dinamik bir web portalı geliştirdim.</p>
+            </div>
+            <div class="portfolio-item slide-right">
+                <h4>Oyun Prototipi</h4>
+                <p>Unity ve C# ile 2D bir platform oyunu prototipi tasarladım.</p>
+            </div>
+            <div class="portfolio-item slide-left">
+                <h4>Veri Analizi Aracı</h4>
+                <p>Python ile veri görselleştirme ve analiz aracı geliştirdim.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="code" class="section code scroll-reveal">
+        <h2 class="neon-text slide-left">Hello World Örnekleri</h2>
+        <p class="code-text slide-right">Bildiğim dillerde "Hello World" nasıl yazılır:</p>
+        <div class="code-grid">
+            <div class="code-item slide-left">
+                <h4 class="neon-text">C++</h4>
+                <pre><code>#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    cout << "Hello World!" << endl;
+    return 0;
+}</code></pre>
+            </div>
+            <div class="code-item slide-right">
+                <h4 class="neon-text">C#</h4>
+                <pre><code>using System;
+class Program {
+    static void Main() {
+        Console.WriteLine("Hello World!");
+    }
+}</code></pre>
+            </div>
+            <div class="code-item slide-left">
+                <h4 class="neon-text">Java</h4>
+                <pre><code>public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello World!");
+    }
+}</code></pre>
+            </div>
+            <div class="code-item slide-right">
+                <h4 class="neon-text">JavaScript</h4>
+                <pre><code>console.log("Hello World!");</code></pre>
+            </div>
+            <div class="code-item slide-left">
+                <h4 class="neon-text">Python</h4>
+                <pre><code>print("Hello World!")</code></pre>
+            </div>
+            <div class="code-item slide-right">
+                <h4 class="neon-text">HTML</h4>
+                <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;body&gt;
+    &lt;h1&gt;Hello World!&lt;/h1&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact scroll-reveal">
+        <h2 class="neon-text slide-left">İletişim</h2>
+        <p class="slide-right">Bana ulaşmak için aşağıdaki bağlantıları kullanabilirsiniz.</p>
+        <div class="contact-links">
+            <a href="mailto:ahmetdoblo21@gmail.com" class="contact-link slide-left">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Mail_%28iOS%29.svg" alt="Email Logo">
+            </a>
+            <a href="https://www.instagram.com/schevellor/" target="_blank" class="contact-link slide-right">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram Logo">
+            </a>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
